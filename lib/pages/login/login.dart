@@ -1,4 +1,3 @@
-import 'package:firebase1/pages/home/home.dart';
 import 'package:firebase1/pages/login/google/google_auth.dart';
 import 'package:firebase1/pages/signup/signup.dart';
 import 'package:firebase1/services/auth_services.dart';
@@ -7,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:firebase1/pages/forgot_password/forgot_password.dart';
+import 'package:firebase1/pages/todo/TodoScreen.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -256,7 +256,7 @@ class _LoginState extends State<Login> {
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(
-              builder: (context) => const Home(),
+              builder: (context) => TodoScreen(),
             ),
           );
         }
