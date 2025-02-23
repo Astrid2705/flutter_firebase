@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:firebase1/pages/forgot_password/forgot_password.dart';
-import 'package:firebase1/pages/todo/TodoScreen.dart';
+import 'package:firebase1/pages/todo/todo_screen.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
